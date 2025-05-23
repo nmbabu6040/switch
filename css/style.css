@@ -1,0 +1,545 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+img,
+ul,
+ol,
+li,
+input,
+form,
+.btn,
+.navbar,
+.breadcrumb,
+.pagination {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: 'Proxima Nova', sans-serif;
+    font-family: "Montserrat", serif;
+    font-family: "Open Sans", serif;
+}
+    
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+header{
+
+}
+.header_part{
+    background: url(../images/back_img.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+}
+.navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Proxima Nova', sans-serif;
+    display: block;
+    margin-right: 20px;
+    padding: 5px;
+    transition: all linear .4s;
+    position: relative;
+}
+.navbar-nav .nav-item .nav-link::before{
+    position: absolute;
+    top: -25px;
+    left: 6;
+    content: '';
+    height: 8px;
+    width: 0;
+    opacity: 0;
+    background: #54d154;
+    transition: all linear .4s;
+}
+.navbar-nav .nav-item:hover .nav-link::before{
+    width: 100%;
+    opacity: 1;
+}
+
+.logo_part{
+    margin-top: 20px;
+}
+form input.form-control{
+    height: 40px !important;
+    width: 170px !important;
+    border-radius: 40px !important;
+    padding-right: 30px !important;
+    background: #d6d5d4;
+}
+form button.src-btn{
+    margin-left: -40px !important;
+    color: #111111;
+    font-size: 16px;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 100;
+}
+
+.header_content{
+    margin: 220px 0px 0px;
+}
+.header_content h1{
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: "Montserrat", serif;
+    padding-bottom: 40px;
+    font-size: 55px;
+}
+.header_content .bt{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: #ffffff;
+    background: #54d154;
+    font-size: 21.89px;
+    font-weight: 400;
+    font-family: 'Proxima Nova', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    margin-bottom: 200px;
+    transition: all linear .4s;
+}
+.header_content .bt:hover{
+    background: #025402;
+}
+.scroll a{
+    display: inline-block;
+    padding: 7px 11px;
+    border-radius: 40px;
+    color: #111111;
+    background: #c4c1c1;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Proxima Nova', sans-serif;
+    text-transform: lowercase;
+}
+.scroll a i{
+    margin-left: 10px;
+}
+/*--------------------doing_part start----------*/
+.doing_part{
+    padding: 40px 0px 70px;
+    background: #ffffff;
+}
+.common_heading h2{
+    color: #828181;
+    font-size: 20.54px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Montserrat", serif;
+    padding-bottom: 25px;
+    letter-spacing: 5px;
+    position: relative;
+}
+.common_heading h2::after{
+    position: absolute;
+    bottom: 10px;
+    left: 48%;
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: #828181;
+    z-index: 111;
+}
+.common_heading p{
+    color: #b7b3b3;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: "Open Sans", serif;
+    margin-bottom: 20px;
+}
+.doing_item .doing_img img{
+    width: 140px;
+    height: 140px;
+}
+.doing_item .doing_img{
+    margin-bottom: 30px;
+}
+.doing_item h4{
+    color: #828181;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Proxima Nova', sans-serif;
+    padding-bottom: 25px;
+}
+.doing_item p{
+    color: #828181;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: "Montserrat", serif;
+    margin-bottom: 30px;
+}
+.doing_item a{
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background: #54d154;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Proxima Nova', sans-serif;
+    transition: all linear .4s;
+}
+.doing_item a:hover{
+    background: #025402;
+}
+/*--------------work_part start----------------*/
+.work_part{
+    background: #54d154;
+    padding: 50px 0px;
+}
+
+button{
+    padding: 5px 10px;
+    outline: none;
+    border: 0;
+    background: #fff;
+    color: #54d154;
+    margin: 1px;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Proxima Nova', sans-serif;
+    display: inline-block;
+    text-transform: capitalize;
+    transition: all .4s;
+}
+button:first-child{
+    border-radius: 40px 0px 0px 40px;
+}
+
+button:last-child{
+    border-radius: 0px 40px 40px 0px;
+}
+button:focus{
+    background: #025402;
+    color: #fff;
+}
+button.active,
+button:hover{
+    background: #025402;
+    color: #fff;
+}
+
+.bottom-bt a{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    background: #2b9b2b;
+    text-transform: capitalize;
+    font-family: 'Proxima Nova', sans-serif;
+    transition: all .4s;
+    cursor: pointer;
+}
+.bottom-bt a:hover{
+    background: #025402;
+}
+/*-----------------testionial_part start---------*/
+.testionial_part{
+    background: #ffffff;
+    padding: 40px 0px 50px;
+}
+.Testimonial_item p{
+    color: #444444;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 20px;
+}
+.testionial_part .d-flex img{
+    display: inline-block;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+.testionial_part .d-flex span p{
+    color: #111111;
+    font-weight: 600;
+}
+.testionial_part .d-flex span small{
+    color: #444444;
+    font-weight: 400;
+}
+.fa-angle-double-left{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+}
+.fa-angle-double-right{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+/*----------------client_part start--------------*/
+.client_part{
+    background: #f2f1f1;
+    padding: 40px 0px 50px;
+}
+.client_btn a{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: #a59d9d;
+    font-size: 18px;
+    font-weight: 400;
+    background: #dddcdc;
+    text-transform: capitalize;
+    font-family: 'Proxima Nova', sans-serif;
+    transition: all .4s;
+    cursor: pointer;
+}
+.client_btn a:hover{
+    background: #828181;
+    color: #fff;
+}
+/*--------------team_part start---------------*/
+.team_part{
+    background: #54d154;
+    padding: 30px 0px 40px;
+}
+
+.team_img{
+    margin-bottom: 120px;
+}
+.team_list p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Proxima Nova', sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.team_list p{
+    position: relative;
+}
+.team_list p::after{
+    position: absolute;
+    display: block;
+    left: 50%;
+    right: 0;
+    top: -110px;
+    content: '';
+    width: 2px;
+    height: 100px;
+    background: #828181;
+    z-index: 222;
+}
+.team_sicon ul li a{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px;
+    text-align: center;
+    color: #fff;
+    background: #0061ff;
+}
+.team_sicon ul li a i{
+    line-height: 20px;
+}
+.team_sicon{
+    border-radius: 40px;
+    background: #fff;
+    margin: 0px 18%;
+}
+.team_btn{
+    background: #3eba3e;
+    padding: 20px 0px;
+}
+.team-bt a{
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: #b9ecb9;
+    font-size: 18px;
+    font-weight: 400;
+    background: #54d154;
+    text-transform: uppercase;
+    font-family: 'Proxima Nova', sans-serif;
+    transition: all .4s;
+    cursor: pointer;
+}
+.team-bt a:hover{
+    background: #025402;
+}
+/*-----------------footer_part start-----------------*/
+footer{
+
+}
+.ft_main{
+    background: #333333;
+    padding: 40px 0px;
+}
+.ft_part_content h4{
+    color: #dddddd;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Montserrat", serif;
+    padding-bottom: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.ft_part_content h4::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background: #dddddd;
+    z-index: 222;
+    left: 40%;
+}
+.ft_part_content p{
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: 'Proxima Nova', sans-serif;
+    margin-bottom: 20px;
+}
+.ft_icon{
+    margin: 0px 35%;
+}
+
+.post_item img{
+    margin-right: 10px;
+}
+.post_item span a{
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-family: "Montserrat", serif;
+}
+.post_item span small{
+    background: #54d154;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: #444444;
+}
+.ft_part_content form .name,
+.ft_part_content form .name{
+    width: 100%;
+    padding: 10px;
+    background: #444444;
+    margin-bottom: 2px;
+}
+.ft_part_content form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    background: #444444;
+    border: none;
+}
+.ft_part_content form button.reg-btn{
+    width: 100%;
+    padding: 10px;
+    background: #3eba3e;
+    border-radius: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 0px 0px 10px 10px;
+    outline: 0;
+    border: 0;
+}
+.ft_middle_part{
+    background: #222222;
+    padding: 30px 0px;
+}
+.middle-cont h5{
+    color: #101010;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Montserrat", serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+.middle-cont h5::after{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 48%;
+    width: 50px;
+    height: 2px;
+    background: #111111;
+    display: block;
+    z-index: 3333;
+}
+.copy_part{
+    background: #111111;
+    padding: 20px 0px;
+}
+.copy_cont p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    font-family: 'Proxima Nova', sans-serif;
+}
+.copy_cont p span{
+    color: red;
+}
